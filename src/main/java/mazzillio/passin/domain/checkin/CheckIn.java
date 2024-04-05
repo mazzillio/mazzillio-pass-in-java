@@ -10,7 +10,7 @@ import mazzillio.passin.domain.attendee.Attendee;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "check-ins")
+@Table(name = "check_ins")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

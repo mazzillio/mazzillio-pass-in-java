@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mazzillio_postgres_nlw_unite:
+    container_name: postgres_nlw_unite
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=mazzillio
+      - POSTGRES_PASSWORD=mazza1234
+      - POSTGRES_DB=pass_in
